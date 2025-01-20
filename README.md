@@ -10,16 +10,15 @@
 
 <center>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/soumyajit4419/Portfolio?color=red&logo=github&style=for-the-badge)
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/019a2584-f2e3-4670-bcb8-cba89828ed15" />
+![image](https://github.com/user-attachments/assets/74b38042-fda3-426b-8ee8-0dcac806b7b5)
+
+
 
 </center>
 
 
-My personal portfolio <a href="https://soumyajit.vercel.app/" target="_blank">Jazib</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://jazib-portfolio.vercel.app/" target="_blank">Jazib</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
