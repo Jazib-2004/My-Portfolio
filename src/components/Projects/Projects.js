@@ -5,8 +5,8 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
+import sales from "../../Assets/Projects/sales.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,12 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={sales}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="FinForecastHub's Data Agnostic Forecasting Module"
+              description="This project serves as a module of our broader FYDP 'FinForecastHub'. It focuses on making data agnostic deep learning based architectures that can be used to forecast financial metric of any companys' dataset on runtime. The architecture is designed to be generic that can be trained on time-series dataset of any size and nature and can give best possible forecasting results."
+              ghLink="https://github.com/Jazib-2004/FinForecastHub-FYDP"
             />
           </Col>
 
@@ -36,21 +35,9 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Credit Worthiness in Microfinance Banks using XAI"
+              description="While giving credit scores to applicants on their loan applications, Bankers can have trust issues over Machine Learning models and they can find those models intransparent and unreliable. To address transparency issues in credit worthiness, this project uses Explainable AI to bring interpretability in Machine Learning models."
+              ghLink="https://github.com/Jazib-2004/Credit-Worthiness-in-Microfinance-Banks-using-Explainable-AI"
             />
           </Col>
 
@@ -58,21 +45,9 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Food Calorie Estimation using YOLO and OpenCV"
+              description="This project uses DIP and YOLOV8 to use food images with horizontal and vertical coins alongside to predict food calories. The model does object detection, image segmentation and then classification using YOLOV8, and then uses K-Nearest Neighbours regressor to predict the calories in the classified food."
+              ghLink="https://github.com/Jazib-2004/Food-Calorie-Estimation-using-Food-Images"
             />
           </Col>
 
@@ -80,11 +55,29 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Face Mask Detection using CNNs"
+              description="Face mask detection can be very useful in environments like hospital emergency rooms or ICUs where wearing mask is mandatory. It can also help in pandemics like COVID where such models can detect if a person is wearing a mask or not. In this project, I used a Convolutional Nueral Network architecture to train a face mask detection algorithm based."
+              ghLink="https://github.com/Jazib-2004/Face-Mask-Detection-using-CNNs"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Prediction, Classification, and Clustering on Public Expenses Dataset"
+              description="Applying end-to-end ML pipeline incl. EDA to get to know data more, data preprocessing to prepare data for modelling, and at last REGRESSION to predict one feature's value, CLASSIFICATION to classify one feature, and K-means for clustering and its analysis."
+              ghLink="https://github.com/Jazib-2004/Prediction-Classification-and-Clustering-on-Public-Expenses-Dataset"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Software Projects Success Estimation using Supervised ML"
+              description="Software Projects are always risky considering the time and budget constraints and majority of them are considered fail as they overreach time and budget deadlines. Using Scikit-Learn for classification and regression (scoring of projects) and data preprocessing."
+              ghLink="https://github.com/Jazib-2004/Software-Projects-Success-Estimation-using-Supervised-ML"
             />
           </Col>
         </Row>
