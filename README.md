@@ -1,18 +1,14 @@
 <h2 align="center">
   Portfolio Website <br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">Jazib</a>
+  <a href="https://jazib-portfolio.vercel.app/" target="_blank">Jazib</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
 <center>
 
 <img width="959" alt="image" src="https://github.com/user-attachments/assets/019a2584-f2e3-4670-bcb8-cba89828ed15" />
-![image](https://github.com/user-attachments/assets/74b38042-fda3-426b-8ee8-0dcac806b7b5)
-
+<img width="959" alt="image" src = "https://github.com/user-attachments/assets/74b38042-fda3-426b-8ee8-0dcac806b7b5" />
 
 
 </center>
